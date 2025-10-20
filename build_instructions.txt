@@ -1,0 +1,11 @@
+# Build Instructions for FileOrganizer
+
+To create an executable (.exe) version of this program:
+
+1. Install PyInstaller:
+   pip install pyinstaller
+
+2. Open Command Prompt in this folder and run:
+   pyinstaller --onefile --windowed main.py
+
+3. The output executable will appear in the 'dist' directory.
